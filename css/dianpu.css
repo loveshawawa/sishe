@@ -1,0 +1,181 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	font-family: "苹方";
+	width: 100%;
+	overflow-x: hidden;
+}
+.topTab{
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left, #ff4c98 , #ff629a);
+	/* background: pink; */
+	/* 固定定位：相对于窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 层级：定位中才会遇到 */
+	z-index: 10;
+	font-size: .36rem;
+	color: white;
+	text-align: center;
+	line-height: .88rem;
+}
+.topTab .left{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url(../img/fanhui.png);
+	background-size: 0.44rem 0.44rem;
+	background-position: 0 0.22rem;
+	background-repeat: no-repeat;
+	float: left;
+	padding-left: .24rem;
+	box-sizing: border-box;
+}
+
+.topTab .right{
+	width: 0.88rem;
+	height: 0.88rem;
+	font-size: .3rem;
+	text-align: right;
+	line-height: .88rem;
+	color: white;
+	float: right;
+	padding-right: .24rem;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-left: .24rem;
+	padding-right: .24rem;
+	padding-top: .88rem;
+}
+.main .top{
+	width: 7.02rem;
+	height: 1.3rem;
+	margin-top: .44rem;
+}
+.main .top .left{
+	width: 1.38rem;
+	height: 1.3rem;
+	float: left;
+	background-image: url('../img/dianpu.png');
+	background-repeat: no-repeat;
+	background-size: 1.38rem 1.3rem;
+	background-position: center;
+}
+.main .top .right{
+	width: 5.2rem;
+	height: 1.3rem;
+	float: right;
+	margin-right: .06rem;
+}
+.main .top .right .dianpu{
+	width: 100%;
+	height: .44rem;
+}
+.main .top .right .dianpu .mingzi{
+	width: 3.6rem;
+	height: 100%;
+	float: left;
+	background-image: url('../img/mingzi.png');
+	background-repeat: no-repeat;
+	background-size: 3.39rem .29rem;
+	background-position: left;
+}
+.main .top .right .dianpu .guanzhu{
+	width: 1.08rem;
+	height: .4rem;
+	border-radius: .04rem;
+	background: #ff4f98;
+	font-size: .2rem;
+	color: white;
+	text-align: center;
+	line-height: .4rem;
+	float: right;
+}
+.main .top .right .miaoshu{
+	width: 100%;
+	height:.6rem ;
+	font-size: .24rem;
+	color: #353535;
+	text-align: left;
+	line-height: .36rem;
+	display: block;
+	margin-top: .08rem;
+}
+.main .biaoqian{
+	width: 7.02rem;
+	height: .7rem;
+	margin-top: .44rem;
+}
+.main .biaoqian .left{
+	width: 2.28rem;
+	height: .68rem;
+	border-top-left-radius: .1rem;
+	border-bottom-left-radius: .1rem;
+	border: .01rem solid #ff4f98;
+	border-right: none;
+	font-size: .24rem;
+	color: #6e6e6e;
+	text-align: center;
+	line-height: .68rem;
+	float: left;
+	margin-left: .06rem;
+}
+.main .biaoqian .mid{
+	width: 2.28rem;
+	height: .68rem;
+	border: .01rem solid #ff4f98;
+	border-right: none;
+	font-size: .24rem;
+	color: #6e6e6e;
+	text-align: center;
+	line-height: .68rem;
+	float: left;
+}
+.main .biaoqian .right{
+	width: 2.28rem;
+	height: .68rem;
+	border: .01rem solid #ff4f98;
+	border-top-right-radius: .1rem;
+	border-bottom-right-radius: .1rem;
+	border-left: none;
+	background: #ff4f98; 
+	font-size: .24rem;
+	color: white;
+	text-align: center;
+	line-height: .68rem;
+	float: left;
+}
+.main img{
+	display: block;
+	width: 7.02rem;
+	height: auto;
+	overflow: hidden;
+	margin-top: .44rem;
+}
+.main .banner2{
+	width: 6.86rem;
+	margin-left: .06rem;
+}
+.main .bottom{
+	width: 100%;
+	height: .64rem;
+	background: rgba(255, 0, 107, .7);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: .2rem;
+	color: #ffe1ee;
+	text-align: center;
+	line-height: .64rem;
+}

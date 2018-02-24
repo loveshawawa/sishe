@@ -1,0 +1,214 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	font-family: "苹方";
+	width: 100%;
+	overflow-x: hidden;
+}
+.topTab{
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left, #ff4c98 , #ff629a);
+	/* background: pink; */
+	/* 固定定位：相对于窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 层级：定位中才会遇到 */
+	z-index: 10;
+	font-size: .36rem;
+	color: white;
+	text-align: center;
+	line-height: .88rem;
+}
+.topTab .left{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url();
+	background-size: 0.44rem 0.44rem;
+	background-position: 0 0.22rem;
+	background-repeat: no-repeat;
+	float: left;
+	padding-left: .24rem;
+	box-sizing: border-box;
+}
+
+.topTab .right{
+	width: 0.88rem;
+	height: 0.88rem;
+	font-size: .3rem;
+	text-align: right;
+	line-height: .88rem;
+	color: white;
+	float: right;
+	padding-right: .24rem;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+	height: 13.34rem;
+	background: #ff8cb8;
+	padding-top: .88rem;
+	box-sizing: border-box;
+}
+.main .touxiang{
+	display: block;
+	width: 1.42rem;
+	height: 1.42rem;
+	margin-top: .6rem;
+	margin-left: 3.04rem;
+}
+.main .user{
+	width: 100%;
+	height: .24rem;
+	font-size: .24rem;
+	color: white;
+	text-align: center;
+	line-height: .24rem;
+	margin-top: .24rem;
+}
+.main .account{
+	width: 100%;
+	height: .72rem;
+	margin-top: .6rem;
+	position: relative;
+}
+.main .account .zhanghao{
+	display: block;
+	width: 5.6rem;
+	height: 100%;
+	border-radius: .1rem;
+	border: none;
+	margin-left: .95rem;
+	padding-left: .72rem;
+	box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+	color: #ffb6d2;
+}
+.main .account .logo{
+	width: .72rem;
+	height: 100%;
+	background-image: url('../img/zhanghao.png');
+	background-size: .72rem .72rem;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: .95rem;
+}
+.main .password{
+	width: 100%;
+	height: .72rem;
+	margin-top: .24rem;
+	position: relative;
+}
+.main .password .mima{
+	display: block;
+	width: 5.6rem;
+	height: 100%;
+	border-radius: .1rem;
+	border: none;
+	margin-left: .95rem;
+	padding-left: .72rem;
+	box-sizing: border-box;
+}
+.main .password .logo{
+	width: .72rem;
+	height: 100%;
+	background-image: url('../img/mima.png');
+	background-size: .72rem .72rem;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: .95rem;
+}
+.main .password .logo1{
+	width: .72rem;
+	height: 100%;
+	background-image: url('../img/xianshimima .png');
+	background-size: .72rem .72rem;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: .95rem;
+}
+.main .tishi{
+	width: 100%;
+	height: .22rem;
+	font-size: .22rem;
+	color: #ffcde5;
+	text-align: right;
+	line-height: .22rem;
+	padding-right: .95rem;
+	box-sizing: border-box;
+	margin-top: .24rem;
+}
+.main .login{
+	display: block;
+	width: 5.6rem;
+	height: .72rem;
+	background: #ff4592;
+	margin-left: .95rem;
+	margin-top: .6rem;
+	border-radius: .36rem;
+	border: .03rem solid white;
+	font-size: .24rem;
+	color: white;
+	text-align: center;
+	line-height: .72rem;
+}
+.main .disanfang{
+	width: 100%;
+	height: .24rem;
+	background-image: url('../img/disanfang.png');
+	background-size: 2.98rem .23rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 1.2rem;
+}
+.main .disanfang1{
+	width: 100%;
+	height: .88rem;
+	margin-top: .6rem;
+}
+.main .disanfang1 .weixin{
+	width: .88rem;
+	height: .88rem;
+	background-image: url('../img/weixin.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 1.2rem;
+	float: left;
+}
+.main .disanfang1 .qq{
+	width: .88rem;
+	height: .88rem;
+	background-image: url('../img/qq.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 1.2rem;
+	float: left;
+}
+.main .disanfang1 .weibo{
+	width: .88rem;
+	height: .88rem;
+	background-image: url('../img/weibo.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 1.2rem;
+	float: right;
+}

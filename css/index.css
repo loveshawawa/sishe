@@ -1,0 +1,477 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	font-family: "苹方";
+	width: 100%;
+	overflow-x: hidden;
+}
+.neikuan{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.topTab{
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left, #ff4c98 , #ff629a);
+	/* background: pink; */
+	/* 固定定位：相对于窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 层级：定位中才会遇到 */
+	z-index: 10;
+}
+.topTab .left{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/shouye-saoyisao.png');
+	background-size: 0.39rem 0.4rem;
+	background-position: 0.24rem 0.22rem;
+	background-repeat: no-repeat;
+	float: left;
+}
+.topTab .search{
+	width: 5.74rem;
+	height: 0.88rem;
+	float: left;
+	position: relative;	
+}
+.topTab .search input{
+	box-sizing: border-box;
+	width: 5.74rem;
+	height: 0.44rem;
+	border-radius: 0.22rem;
+	padding-left: 0.2rem;
+	border: none;
+	position: absolute;
+	top: 0.2rem;
+	left: 0;
+}
+/* 选择页面中input中的文字 */
+::-webkit-input-placeholder{
+	color: #ffb6d2;
+}
+.topTab .search a{
+	background-image: url('../img/shouye-sousuo.png');
+	background-size: 0.2rem .26rem;
+	background-position: 5.38rem .08rem;
+	background-repeat: no-repeat;
+}
+.topTab .right{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/shouye-paizhao.png');
+	background-size: 0.4rem 0.4rem;
+	background-position: 0.24rem 0.21rem;
+	background-repeat: no-repeat;
+	float: right;
+}
+.banner{
+	width: 100%;
+	height: 4rem;
+	margin-top: .88rem;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 4rem;
+}
+.banner .box{
+	width: 1.76rem;
+	height: .04rem;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	bottom: .15rem; 
+}
+.banner .box .dot{
+	width: .12rem;
+	height: .04rem;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.banner .box .dot:nth-child(3){
+	width: .24rem;
+	background: #ff2a2a;
+}
+.juan{
+	width: 100%;
+	height: 1.24rem;
+	margin-top: .44rem;
+}
+.juan .neikuan{
+	height: 1.24rem;
+}
+.juan .neikuan .box{
+	width: 2.14rem;
+	height: 100%;
+	background-image: url('../img/liwujuan1.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+}
+
+.juan .neikuan .box:nth-child(2){
+	background-image: url('../img/liwujuan2.png');
+	margin-left: 0.32rem;
+}
+.juan .neikuan .box:nth-child(3){
+	background-image: url('../img/liwujuan3.png');
+	float: right;
+}
+.juan .neikuan .box .fuhao{
+	width: .2rem;
+	height: .7rem;
+	float: left;
+	font-size: .24rem;
+	color: white;
+	line-height: 1.2rem;
+	text-align: right;
+	margin-top: .05rem;
+	margin-left: .2rem;
+}
+.juan .neikuan .box .price{
+	width: 1rem;
+	height: .7rem;
+	float: left;
+	font-size: .72rem;
+	color: white;
+	line-height: .9rem;
+	text-align: center;
+	margin-top: .05rem;
+
+}
+.juan .neikuan .box .miaoshu{
+	width: .2rem;
+	height: .7rem;
+	float: right;
+	margin-right: .24rem;
+	font-size: .02rem;
+	color: white;
+	line-height: .24rem;
+	margin-top: .11rem;
+}
+.juan .neikuan .box a{
+	display: block;
+	width: 1.24rem;
+	height: .3rem;
+	border-radius: .15rem;
+	background: white;
+	position: absolute;
+	bottom: .1rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #ff5898;
+	text-align: center;
+	line-height: .3rem;
+}
+.juan .neikuan .box:nth-child(2) a{
+	color: #fdff40;
+}
+.juan .neikuan .box:nth-child(3) a{
+	color: #40baff;
+}
+.xinpin{
+	width: 100%;
+	height: 7.16rem;
+	margin-top: .4rem;
+}
+.xinpin .tittle{
+	width: 100%;
+	height: .8rem;
+	background-image: url('../img/biaoti.png');
+	background-size: 7.5rem .6rem;
+	background-position: 0 .04rem;
+	background-repeat: no-repeat;
+}
+.xinpin .tittle .Chinese{
+	width: 100%;
+	height: .4rem;
+	font-size: .3rem;
+	color: #ff5898;
+	text-align: center;
+	line-height: .3rem;
+}
+.xinpin .tittle .English{
+	width: 100%;
+	height: .4rem;
+	font-size: .2rem;
+	color: #ff5898;
+	text-align: center;
+	line-height: .2rem;
+}
+.xinpin .shangpin{
+	width: 100%;
+	height: 5.66rem;
+	margin-top: .2rem;
+}
+.xinpin .shangpin .all{
+	width: 1.55rem;
+	height:5.3rem;
+	float: left;
+	background: white;
+	margin-right: .5rem;
+	margin-top: .16rem;
+	box-shadow: 0 .04rem .2rem rgba(255, 0, 126, 0.3);
+	position: relative;
+}
+
+.xinpin .shangpin .all:nth-child(2){
+	width: 3.4rem;
+	height:5.66rem;
+	margin: 0 auto;
+}
+.xinpin .shangpin .all:nth-child(3){
+	float: right;
+	margin-right: 0
+}
+.xinpin .shangpin .cart{
+	width: .44rem;
+	height: .44rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-image: url('../img/cart.png');
+	background-size: .30rem .26rem;
+	background-position: 0 .05rem;
+	background-repeat: no-repeat;
+}
+.xinpin .shangpin a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.xinpin .shangpin .all a .tupian{
+	margin-top: .1rem;
+	display: block;
+}
+.xinpin .shangpin .all:nth-child(1) a .tupian{
+	width: 1.45rem;
+	height:3.85rem;
+	background: pink;
+	margin-right: .1rem;
+}
+.xinpin .shangpin .all:nth-child(2) a .tupian{
+	width: 3.2rem;
+	height:4.12rem;
+	background: pink;
+	margin-left: .1rem;
+}
+.xinpin .shangpin .all:nth-child(3) a .tupian{
+	width: 1.45rem;
+	height:3.85rem;
+	background: pink;
+	margin-left: .1rem;
+}
+.xinpin .shangpin .all a .wenzi{
+	line-height: .24rem;	
+	font-size: .24rem;
+	color: #2d3035;
+	margin-top: .2rem;
+}
+.xinpin .shangpin .all:nth-child(1) a .wenzi{
+	width: 1.45rem;
+	height: .58rem;
+}
+.xinpin .shangpin .all:nth-child(2) a .wenzi{
+	width: 3.2rem;
+	height:.58rem;
+	margin-left: .1rem;
+	line-height: .3rem;
+	margin-top: .1rem;
+}
+.xinpin .shangpin .all:nth-child(3) a .wenzi{
+	width: 1.45rem;
+	height: .58rem;
+	margin-left: .1rem;
+	line-height: .3rem;
+	margin-top: .2rem;
+}
+.xinpin .shangpin .all a .price{
+	width: 1.27rem;
+	height: .27rem;
+	background-image: url('../img/888.88.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: .1rem;
+	margin-top: .32rem;
+}
+.xinpin .shangpin .all:nth-child(3) a .price{
+	background-size: 92%;
+	margin-top: .24rem;
+}
+
+
+.remen{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: .76rem;
+}
+.remen .tittle{
+	width: 100%;
+	height: .8rem;
+	background-image: url('../img/biaoti.png');
+	background-size: 7.5rem .6rem;
+	background-position: 0 .04rem;
+	background-repeat: no-repeat;
+}
+.remen .tittle .Chinese{
+	width: 100%;
+	height: .4rem;
+	font-size: .3rem;
+	color: #ff5898;
+	text-align: center;
+	line-height: .3rem;
+}
+.remen .tittle .English{
+	width: 100%;
+	height: .4rem;
+	font-size: .2rem;
+	color: #ff5898;
+	text-align: center;
+	line-height: .2rem;
+}
+
+.remen .neikuan .left{
+	width: 3.21rem;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.remen .neikuan .right{
+	width: 3.21rem;
+	height: auto;
+	overflow: hidden;
+	float: right;
+}
+.remen .neikuan .all{
+	width: 100%;
+	height:5.66rem;
+	margin-top: .1rem;
+	box-shadow: 0 .04rem .2rem rgba(255, 0, 126, 0.3);
+	position: relative;
+	margin-bottom: .44rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+}
+.remen .neikuan .all a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.remen .neikuan .all .cart{
+	width: .44rem;
+	height: .44rem;
+	background-image: url('../img/cart.png');
+	background-size: .30rem .26rem;
+	background-position: 0 .09rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: .18rem;
+	right: 0;
+}
+.remen .neikuan .all a .tupian{
+	display: block;
+	width: 3.01rem;
+	height:4.13rem;
+	margin-left: .1rem;
+}
+.remen .neikuan .wenzi{
+	width: 3.2rem;
+	height:.58rem;
+	font-size: .14rem;
+	color: #2d3035;
+	padding-left: .1rem;
+	padding-right: .1rem;
+	line-height: .3rem;
+	margin-top: .1rem;
+	box-sizing: border-box;
+}
+.remen .neikuan .all a .price{
+	width: 1.27rem;
+	height: .27rem;
+	background-image: url('../img/888.88.png');
+	background-size: 1.27rem .27rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: .1rem;
+	margin-top: .22rem;
+	float: left;
+}
+
+.tab{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+}
+.tab .list{
+	display: block;
+	width: 1.5rem;
+	height: 100%;
+	background: #fff;
+	float: left;
+}
+.tab .list:nth-child(1){
+	background: #fedbe9;
+}
+.tab .list .icon{
+	width: 1.5rem;
+	height: .44rem;
+	margin-top: .14rem;
+}
+.tab .list .icon1{
+	background-image: url('../img/icon_home Cart@2x.png');
+	background-size: 0.44rem .44rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon2{
+	background-image: url('../img/icon_classification@2x.png');
+	background-size: 0.44rem .44rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon3{
+	background-image: url('../img/icon_Personal Tailor@2x.png');
+	background-size: 0.44rem .44rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon4{
+	background-image: url('../img/icon_Shopping Cart@2x.png');
+	background-size: 0.44rem .44rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon5{
+	background-image: url('../img/icon_mine@2x.png');
+	background-size: 0.44rem .44rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .wenzi{
+	width: 100%;
+	height: .2rem;
+	font-size: 0.2rem;
+	color: #ff5999;
+	text-align: center;
+	line-height: .2rem;
+	margin-top: .1rem;
+}
